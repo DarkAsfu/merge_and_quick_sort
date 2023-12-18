@@ -38,7 +38,7 @@ void quicksort(int arr[], int low, int high, int* swaps) {
 }
 
 int main() {
-    int arr[] = {12, 20, 5, 22, 85, 15, 25, 30, 1, 40};
+    int arr[] = {12, 20, 5, 22, 85, 15, 25, 30, 40};
     int n = sizeof(arr) / sizeof(arr[0]);
     int swaps = 0;
 
